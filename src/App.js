@@ -3,9 +3,10 @@ import image from './images/rightSection1.png'
 
 function App() {
   return (
-    <div style={{ height: "100vh", display: 'flex' }}>
+    <div className='block justify-center
+     sm:block md:flex' style={{ height: "100vh" }}>
 
-      <div className='bg-pink-50' style={{ width: '50%' }}>
+      <div className='bg-pink-50 md:w-[50%]' >
         <div className="flex items-center justify-center h-screen">
           <div className="flex flex-col w-2/3 max-w-md">
             <h1
@@ -43,7 +44,7 @@ function App() {
       </div>
 
 
-      <div style={{ width: "50%", backgroundColor: "rgb(35 50 93)" }}>
+      <div className='md:w-[50%] bg' style={{ backgroundColor: "rgb(35 50 93)" }}>
         <div className="flex items-center justify-center h-screen">
           <div className="flex flex-col w-2/3 max-w-md">
             <img src={image} />

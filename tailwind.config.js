@@ -5,11 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors:{
-        pink:{
-          50:"#fdf2f8"
-        }
-      }
+      // colors:{
+      //   pink:{
+      //     50:"#fdf2f8"
+      //   }
+      // }
     },
   },
   plugins: [],
