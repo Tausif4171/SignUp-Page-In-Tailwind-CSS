@@ -4,19 +4,13 @@ import image from './images/rightSection1.png'
 function App() {
   return (
     <div className='block justify-center
-     sm:block md:flex' style={{ height: "100vh" }}>
+     sm:block md:flex h-[100vh]'>
 
       <div className='bg-pink-50 md:w-[50%]' >
         <div className="flex items-center justify-center h-screen">
           <div className="flex flex-col w-2/3 max-w-md">
             <h1
-              style={{
-                textAlign: 'center',
-                marginBottom: '20px',
-                fontFamily: 'Lato-Bold',
-                fontSize: '1.75rem',
-                fontWeight: 'bold'
-              }}
+              className='text-[#1f345d] text-center mb-[20px] font-lato font-semibold text-[1.75rem]'
             >
               Sign Up
             </h1>
@@ -44,12 +38,12 @@ function App() {
       </div>
 
 
-      <div className='md:w-[50%] bg' style={{ backgroundColor: "rgb(35 50 93)" }}>
+      <div className='md:w-[50%] bg-[#20335d]' >
         <div className="flex items-center justify-center h-screen">
           <div className="flex flex-col w-2/3 max-w-md">
             <img src={image} />
-            <div style={{ marginTop: '20px' }}>
-              <h1 style={{ color: 'white', textAlign: 'center' }}>Engage the right prospects, at the right time, on the right channels - always!</h1>
+            <div className='mt-[20px]'>
+              <h1 className=' text-white text-center' >Engage the right prospects, at the right time, on the right channels - always!</h1>
             </div>
           </div>
         </div>
