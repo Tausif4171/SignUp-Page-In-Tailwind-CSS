@@ -2,11 +2,12 @@ import './App.css';
 import image from './images/rightSection1.png'
 
 function App() {
+  const INPUT_CLASSNAME = "border rounded-lg px-4 py-2 mb-4 focus:outline-none focus:ring-1 focus:ring-blue-300";
   return (
     <div className='block justify-center
      sm:block md:flex h-[100vh]'>
 
-      <div className='bg-pink-50 md:w-[50%]' >
+      <div className='bg-pink-50 md:w-1/2' >
         <div className="flex items-center justify-center h-screen">
           <div className="flex flex-col w-2/3 max-w-md">
             <h1
@@ -16,17 +17,17 @@ function App() {
             </h1>
             <input
               type="text"
-              className="border rounded-lg px-4 py-2 mb-4 focus:outline-none focus:ring-1 focus:ring-blue-300"
+              className={INPUT_CLASSNAME}
               placeholder="Name"
             />
             <input
               type="text"
-              className="border rounded-lg px-4 py-2 mb-4 focus:outline-none focus:ring-1 focus:ring-blue-300"
+              className={INPUT_CLASSNAME}
               placeholder="Work email"
             />
             <input
               type="text"
-              className="border rounded-lg px-4 py-2 mb-4 focus:outline-none focus:ring-1 focus:ring-blue-300"
+              className={INPUT_CLASSNAME}
               placeholder="Password"
             />
             <button className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded">
