@@ -14,7 +14,7 @@ function App() {
             <div className="flex flex-row md:flex-col">
               <img className="w-[105px] h-[105px]" src={image} />
               <div className="mt-[14px] pl-5 md:pl-[0px]">
-                <h1 className="text-white text-[30px] pb-0 md:text-[78px] md:pb-[2.25rem] w-[479px] md:leading-[84px] font-semibold">Apply for early access</h1>
+                <h1 className="text-white text-[30px] pb-0 md:text-[78px] md:pb-[2.25rem] md:max-w-[479px] md:leading-[84px] font-semibold">Apply for early access</h1>
                 <h5 className="md:hidden text-[#ADADAD] text-[16px]">Currently in Beta</h5>
               </div>
             </div>
@@ -26,8 +26,8 @@ function App() {
         </div>
       </div>
 
-      <div className=' md:w-1/2' >
-        <div className="flex items-center justify-center h-screen mt-[40px]">
+      <div className='h-[470px] md:w-1/2' >
+        <div className="flex items-center justify-center md:h-screen mt-[40px]">
           <div className="flex flex-col w-2/3">
 
             <label className='text-[#ADADAD] text-[17px] pb-[6px]'>First name</label>
